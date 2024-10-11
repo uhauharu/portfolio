@@ -1,13 +1,17 @@
 @charset "utf-8";
 
-.user-container{
-  display: flex;
+body{
+  background-color: yellow;
 }
+
+
 
 .user-info{
   width:50%;
-  background-color: yellow;
-  height:450px;
+  align-content: center;
+  /* display: flex;
+  flex-direction: column; */
+  /* height:450px; */
 }
 
 .user-image{
@@ -93,4 +97,28 @@ img {
 
 .w-150{
   width: 150px;
+}
+
+.text-center{
+  text-align: center;
+}
+
+.user-contents{
+  display: flex;
+}
+
+.w-300{
+  width: 1400px;
+}
+
+.m-w-main{
+  max-width: 1024px;
+}
+
+.m-auto{
+  margin: 0 auto;
+}
+
+.bg-white{
+  background-color: white;
 }
